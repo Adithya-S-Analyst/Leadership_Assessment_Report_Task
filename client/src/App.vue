@@ -439,7 +439,7 @@ if (Object.keys(answers.value).length !== questions.length) {
   try {
 
   const response = await fetch(
-    "http://localhost:5000/submit-assessment",
+    "https://leadership-assessment-api.onrender.com",
     {
       method: "POST",
 

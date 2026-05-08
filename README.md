@@ -6,7 +6,7 @@ The app allows users to complete a 9‑question leadership assessment, receive i
 
 ---
 
-## ✉️ Email Delivery Note
+## Email Delivery Note
 The deployed application currently uses Resend's testing sender domain (`onboarding@resend.dev`).  
 Due to Resend sandbox restrictions, unrestricted public email delivery requires verifying a custom sender domain.
 
@@ -14,7 +14,7 @@ The full email workflow, backend integration, and HTML report generation are fun
 
 ---
 
-## 🚀 Features
+## Features
 - 9‑question leadership assessment
 - 3 leadership dimensions:
   - Decision Making
@@ -32,7 +32,7 @@ The full email workflow, backend integration, and HTML report generation are fun
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 **Frontend**
 - Vue.js
 - Vite
@@ -50,17 +50,9 @@ The full email workflow, backend integration, and HTML report generation are fun
 
 ---
 
-## 📂 Project Structure
-```bash
-leadership-assessment/
-│
-├── client/   # Vue frontend
-│
-└── server/   # Express backend
-
 ---
 
-📊 Scoring Logic
+## Scoring Logic
 The assessment contains 3 leadership dimensions:
 
 Decision Making
@@ -89,14 +81,14 @@ Performance bands
 
 ---
 
-📧 Email Service Choice
+## Email Service Choice
 Resend was chosen for its simple API and beginner‑friendly setup for transactional email delivery.
 Currently, the app uses Resend’s testing sender domain.
 Production email delivery requires verifying a custom sender domain.
 
 ---
 
-✅ Validation & Error Handling
+## Validation & Error Handling
 The application handles:
 
 Incomplete form submissions
@@ -109,7 +101,7 @@ Failed email requests
 
 Validation messages are shown clearly to the user.
 
-🤖 AI Assistance
+## AI Assistance
 AI tools were used for:
 
 UI refinement
@@ -124,7 +116,7 @@ All final implementation decisions were reviewed and understood before submissio
 
 ---
 
-🔮 Future Improvements
+## Future Improvements
 Production email delivery with a verified domain
 
 PDF report generation
@@ -134,4 +126,16 @@ Database integration
 Accessibility improvements
 
 Automated testing
+
+---
+
+## Project Structure
+```bash
+leadership-assessment/
+│
+├── client/   # Vue frontend
+│
+└── server/   # Express backend
+
+
 

@@ -442,7 +442,6 @@ if (Object.keys(answers.value).length !== questions.length) {
     "https://leadership-assessment-api.onrender.com/submit-assessment",
     {
       method: "POST",
-
       headers: {
         "Content-Type": "application/json"
       },

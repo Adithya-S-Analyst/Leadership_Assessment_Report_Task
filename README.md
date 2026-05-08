@@ -4,6 +4,14 @@ A full-stack leadership self-assessment web application built using Vue.js, Expr
 
 The application allows users to complete a 9-question leadership assessment, receive immediate submission confirmation, and get a personalized leadership report delivered by email.
 
+## Email Delivery Note
+
+The deployed application currently uses Resend's testing sender domain (`onboarding@resend.dev`).
+
+Due to Resend sandbox restrictions, unrestricted public email delivery requires verifying a custom sender domain.
+
+The full email workflow, backend integration, and HTML report generation are fully functional and were successfully tested using verified recipient addresses during development.
+
 ---
 
 # Features

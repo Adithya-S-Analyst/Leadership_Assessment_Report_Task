@@ -98,7 +98,7 @@ app.post("/submit-assessment", async (req, res) => {
       })
       .join("");
 
-    await resend.emails.send({
+    const emailResponse = await resend.emails.send({
 
       from: "onboarding@resend.dev",
 
@@ -212,6 +212,16 @@ app.post("/submit-assessment", async (req, res) => {
       `
 
     });
+
+    console.log(emailResponse);
+    if (emailResponse.error) {
+      console.error(emailResponse.error);
+      return res.status(500).json({
+      success: false,
+      message: "Email sending failed"
+    });
+
+    }
 
     res.status(200).json({
       success: true,

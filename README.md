@@ -50,8 +50,6 @@ The full email workflow, backend integration, and HTML report generation are fun
 
 ---
 
----
-
 ## Scoring Logic
 The assessment contains 3 leadership dimensions:
 

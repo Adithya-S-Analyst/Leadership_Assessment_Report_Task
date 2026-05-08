@@ -55,29 +55,29 @@ The full email workflow, backend integration, and HTML report generation are fun
 ## Scoring Logic
 The assessment contains 3 leadership dimensions:
 
-Decision Making
+-Decision Making
 
-Team Communication
+-Team Communication
 
-Strategic Thinking
+-Strategic Thinking
 
-Each dimension has 3 questions rated on a 1–5 Likert scale.
+-Each dimension has 3 questions rated on a 1–5 Likert scale.
 
-Scoring bands:
+-Scoring bands:
 
-Low: 0–5
+  -Low: 0–5
 
-Medium: 6–10
+  -Medium: 6–10
 
-High: 11–15
+  -High: 11–15
 
-The frontend calculates:
+-The frontend calculates:
 
-Dimension scores
+-Dimension scores
 
-Overall score
+-Overall score
 
-Performance bands
+-Performance bands
 
 ---
 
@@ -91,41 +91,41 @@ Production email delivery requires verifying a custom sender domain.
 ## Validation & Error Handling
 The application handles:
 
-Incomplete form submissions
+  -Incomplete form submissions
 
-Unanswered questions
+  -Unanswered questions
 
-Invalid email input
+  -Invalid email input
 
-Failed email requests
+  -Failed email requests
 
-Validation messages are shown clearly to the user.
+  -Validation messages are shown clearly to the user.
 
 ## AI Assistance
 AI tools were used for:
 
-UI refinement
+  -UI refinement
 
-Debugging assistance
+  -Debugging assistance
 
-Deployment troubleshooting
+  -Deployment troubleshooting
 
-Improving code structure and UX decisions
+  -Improving code structure and UX decisions
 
-All final implementation decisions were reviewed and understood before submission.
+  -All final implementation decisions were reviewed and understood before submission.
 
 ---
 
 ## Future Improvements
-Production email delivery with a verified domain
+-Production email delivery with a verified domain
 
-PDF report generation
+-PDF report generation
 
-Database integration
+-Database integration
 
-Accessibility improvements
+-Accessibility improvements
 
-Automated testing
+-Automated testing
 
 ---
 
